@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lora', serif;
+    background-color: #f4f4f4;
+    color: #333;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* ================= HEADER ================= */
+
+.zaglavlje {
+    background-color: #2c1e1e;
+    padding: 15px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: #fff;
+}
+
+.navigacija a {
+    color: #fff;
+    margin-left: 18px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* ================= HERO ================= */
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-tekst {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px 30px;
+}
+
+/* ================= MAIN ================= */
+
+.sadrzaj {
+    flex: 1;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.sadrzaj h1,
+.sadrzaj h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+/* ================= POČETNA ================= */
+
+.opis {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+}
+
+.prednosti {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.prednost {
+    background-color: #fff;
+    padding: 25px;
+    width: 260px;
+    text-align: center;
+}
+
+.prednost i {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #2c1e1e;
+}
+
+/* ================= JELOVNIK ================= */
+
+.jelovnik {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.jelo {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.jelo img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.jelo h3 {
+    margin-top: 10px;
+}
+
+/* ================= GALERIJA ================= */
+
+.galerija {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.galerija img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* ================= FORMA ================= */
+
+.forma {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.forma label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.forma input,
+.forma textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: inherit;
+}
+
+.forma input[type="submit"] {
+    background-color: #2c1e1e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* ================= AUTOR ================= */
+
+.autor {
+    text-align: center;
+}
+
+.autor img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* ================= FOOTER ================= */
+
+.futer {
+    background-color: #2c1e1e;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
