@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt | Stari Grad</title>
+    <link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header class="zaglavlje">
+    <div class="logo"><a href="index.html">Stari Grad</a></div>
+    <nav class="navigacija">
+    <ul>
+        <li><a href="index.html">Početna</a></li>
+        <li><a href="meni.html">Jelovnik</a></li>
+        <li><a href="galerija.html">Galerija</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="autor.html">Autor</a></li>
+        <li><a href="stari-grad-sajt.zip" download>ZIP</a></li>
+    </ul>
+</nav>
+</header>
+
+<main class="sadrzaj">
+    <h1 class="naslov-centar">Kontakt i Rezervacije</h1>
+    
+    <section class="kontakt-sekcija">
+        <div class="kontakt-kolona">
+            <div class="info-kartica">
+                <i class="fa-solid fa-clock"></i>
+                <h3>Radno Vreme</h3>
+                <p>Radni dani: 09:00 - 23:00</p>
+                <p>Vikend: 10:00 - 01:00</p>
+            </div>
+            <div class="info-kartica">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Pozovite Nas</h3>
+                <p>+381 11 123 4567</p>
+                <p>+381 64 987 6543</p>
+            </div>
+            <div class="info-kartica">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Adresa</h3>
+                <p>Kralja Petra 1</p>
+                <p>11000 Beograd</p>
+            </div>
+        </div>
+
+        <div class="kontakt-kolona">
+            <div class="forma-kontejner">
+                <h3><i class="fa-solid fa-utensils"></i> Rezervišite Sto</h3>
+                <form class="forma" action="#" method="post">
+                    <label for="ime">Ime i prezime</label>
+                    <input type="text" id="ime" name="ime" required>
+                    <label for="telefon">Broj telefona</label>
+<input type="tel" id="telefon" name="telefon" placeholder="06x/xxx-xxxx" required>
+
+                    <label for="osobe">Broj gostiju</label>
+                    <select id="osobe" name="osobe">
+                        <option value="1">1 osoba</option>
+                        <option value="2">2 osobe</option>
+                        <option value="3">3 osobe</option>
+                        <option value="4+">4+ osobe</option>
+                    </select>
+
+                    <label for="napomena">Napomena</label>
+                    <textarea id="napomena" name="napomena" rows="4"></textarea>
+                    
+                    <input type="submit" value="Pošalji zahtev">
+                </form>
+            </div>
+        </div>
+
+        <div class="kontakt-kolona">
+            <h3><i class="fa-solid fa-map-location-dot"></i> Nađi nas</h3>
+            <div class="mapa-okvir">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.2!2d20.4!3d44.8!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDTCsDQ4JzAwLjAiTiAyMMKwMjQnMDAuMCJF!5e0!3m2!1ssr!2srs!4v123456789" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="futer">
+    <div class="futer-sadrzaj">
+        <div class="futer-kolona">
+            <h3>Stari Grad</h3>
+            <p>Tradicija i ukus koji se pamte. Vaše omiljeno mesto za autentičnu domaću kuhinju u srcu grada još od 1985. godine.</p>
+        </div>
+
+        <div class="futer-kolona">
+            <h3>Linkovi</h3>
+            <ul>
+                <li><a href="rss.xml"><i class="fa-solid fa-rss"></i> RSS Feed</a></li>
+                <li><a href="sitemap.xml"><i class="fa-solid fa-sitemap"></i> Sitemap</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
+                <li><a href="meni.html">Jelovnik</a></li>
+            </ul>
+        </div>
+
+        <div class="futer-kolona">
+            <h3>Kontakt</h3>
+            <p><i class="fa-solid fa-location-dot"></i> Balkanska 12, Beograd</p>
+            <p><i class="fa-solid fa-phone"></i> +381 11 123 4567</p>
+            <p><i class="fa-solid fa-envelope"></i> info@starigrad.rs</p>
+        </div>
+
+        <div class="futer-kolona">
+            <h3>Radno vreme</h3>
+            <p>Pon - Pet: 09:00 - 23:00</p>
+            <p>Subota: 10:00 - 00:00</p>
+            <p>Nedelja: Zatvoreno</p>
+        </div>
+    </div>
+    <div class="futer-dno">
+        <p>&copy; 2026 Restoran Stari Grad. Sva prava zadržana.</p>
+    </div>
+</footer>
+</body>
+</html>
